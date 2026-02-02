@@ -41,3 +41,21 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+/* 1. Reset the margin so we can control spacing with the separator instead */
+footer ul li {
+    margin-right: 0; 
+}
+
+/* 2. Add the separator after every list item */
+footer ul li::after {
+    content: " | ";      /* The separator symbol */
+    margin: 0 10px;      /* 10px space on left and right */
+    color: #d5d5d5;      /* Light grey to match your border/theme */
+    font-weight: normal; /* Force it to be non-bold */
+}
+
+/* 3. Remove the separator from the very last item so it doesn't dangle */
+footer ul li:last-child::after {
+    content: none;
+}
