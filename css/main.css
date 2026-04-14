@@ -2,9 +2,6 @@ body {
     margin: 60px auto;
     width: 70%;
 }
-nav {
-    margin-bottom: 20px;
-}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -64,39 +61,18 @@ footer {
     font-size: .8em;
 }
 
-/* Blog post styles */
-article.post h1 {
-    font-size: 2em;
-    margin-bottom: 0;
-}
-
-article.post time {
-    display: block;
-    font-size: 1em;
-    color: #999;
-    margin-bottom: 1.5em;
-}
-
-article.post {
-    font-size: 1.2em;
-    line-height: 1.6em;
-    color: #333;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
+ul.posts {
+    margin: 20px auto 40px;
     font-size: 1.5em;
 }
 
 ul.posts li {
     list-style: none;
-    display: block;
-    margin-bottom: 10px;
 }
 
 /* 1. Reset the margin so we can control spacing with the separator instead */
 footer ul li {
-    margin-right: 0; 
+    margin-right: 0;
 }
 
 /* 2. Add the separator after every list item */
